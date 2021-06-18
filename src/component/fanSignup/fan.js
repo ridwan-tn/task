@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Link,Route } from 'react-router-dom';
+
 
 import {
 
@@ -123,16 +123,14 @@ export default function SignIn() {
           </Typography>
           <Box ml={20}>
             <ButtonGroup aria-label="Basic example">
-            <Link to="/sign">
 
               <Button variant="secondary" color="white  ">
                 Sign
                 </Button>
-              </Link>
-              <Link to="/talent">
+            
 
                 <Button variant="secondary">Talent</Button>
-                </Link>
+               
             </ButtonGroup>
           </Box>
           <form className={classes.form} noValidate>
